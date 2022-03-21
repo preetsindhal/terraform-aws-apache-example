@@ -1,5 +1,9 @@
+# AWS VPC Terraform module
+
 This is just demo on how to create a module for terraform.
 Not intended for production use.
+
+## Usage
 
 ```hcl
 terraform {
@@ -20,3 +24,4 @@ module "apache" {
 output "apache_server_ip" {
   value = module.apache.instace_ip_address
 }
+```
